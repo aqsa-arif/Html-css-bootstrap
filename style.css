@@ -1,0 +1,109 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+body {
+  background-color: #040000;
+}
+
+.navbar {
+  background-color: #070000 !important;
+
+  .navbar-brand {
+    font-style: italic;
+    color: #fed136 !important;
+  }
+
+  a {
+    color: #ffffff !important;
+  }
+
+  .container-fluid {
+    padding: 0 6rem;
+
+    .cancelGrow {
+      flex-grow: 0;
+    }
+    .nav-link {
+      padding-left: 18px !important;
+      padding-right: 18px !important;
+    }
+    .nav-link:hover {
+      color: #eab43f !important;
+    }
+
+    .dropdown-menu {
+      background-color: #070000;
+      .dropdown-item {
+        color: #ffffff;
+      }
+      .dropdown-item:hover {
+        color: #eab43f !important;
+        background-color: #070000;
+      }
+    }
+  }
+  .btn-start {
+    background-color: #fed136;
+    border-radius: 16px;
+    color: #ffffff;
+  }
+}
+
+.hero-section {
+  .w-42 {
+    width: 42rem;
+    color: #cdd6d8;
+  }
+  .discover-btn {
+    background-color: #fed136;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+  }
+  .discover-btn:hover {
+    background-color: #eab43f;
+  }
+}
+
+.card {
+  background-color: #191919;
+  padding: 18px;
+
+  h5 {
+    color: #ffffff;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+    color: #cdd6d8;
+  }
+  .count {
+    background-color: #2d2616;
+    color: #eab43f;
+    padding: 18px;
+    border-radius: 18px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .count:hover {
+    background-color: #eab43f;
+    color: #ffffff;
+  }
+}
+
+footer {
+  .social {
+    background-color: #262525;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
